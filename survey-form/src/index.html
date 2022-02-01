@@ -1,0 +1,46 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+  <header> <h1 id="title"> COMPANY SURVEY FORM</h1>
+    </header>
+    <p id="description"> Take out time to fill this form</p>
+  <br>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input id="name" type="text" name="name" placeholder="enter your name" required><br><br>
+     <label for="email" id="email-label" >Email:</label>
+    <input id="email" type="email" name="email" placeholder="enter your email" required> <br><br>
+     <label for="number" id="number-label" >Age:</label>
+    <input id="number" type="number" name="number" placeholder="enter your number" max="100" min="18" required> 
+    <br><br>
+    <label for="dropdown">Select Department:</label>
+    <select name="dropdown" id="dropdown">
+      <option value="manu">Manu</option>
+    <option value="prod">Prod</option> 
+    <option value="adver">Adver</option>
+    </select><br><br>
+    <fieldset> 
+    <legend>recommend company to a friend?</legend>
+          <label for="yes">yes</label>
+          <input type="radio" id="yes" name="radio-input" value="yes">
+          <label for="no">no</label>
+          <input type="radio" id="no" name="radio-input" value="no">
+    </fieldset>
+  <br>
+    <p>Interests:</p>
+    <label for="outdoor">outdoor</label>
+  <input type="checkbox" id:"outdoor" name="outdoor" value="outdoor">
+    <label for="indoor">indoor</label>
+    <input type="checkbox" id:"indoor" name="indoor" value="indoor" >
+    <br><br>
+    <label for="comments">Suggestions:</label>
+      <textarea name="message" cols="100"
+                rows="10">
+suggestions
+</textarea>
+  <br><br>
+  <button id="submit">submit
+  </button>
+    <br><br>
+   </form>
+   </body> 
+

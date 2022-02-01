@@ -1,0 +1,31 @@
+body{
+  background-color: hsl(50 25% 50%);
+  color: white;
+  margin: auto ;
+  border-style: solid;
+  font-size: 25px;
+  text-align: center;
+  }
+button{ background-color: green;
+color: white;
+width: 40rem;
+height: 2rem;
+border-radius: 20px;
+border:none;}
+form{ margin-left: 15rem;
+  margin-right: 15rem;
+  margin-bottom: 5rem;
+border-style: none;
+background-color: rgb(50 50 100);
+display:block;}
+input{ width: 50rem;
+height: 1.6rem;
+border:none;
+}
+label{
+   display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding-bottom:0;
+  margin-left: 30px;
+}
